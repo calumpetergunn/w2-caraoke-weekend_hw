@@ -31,10 +31,5 @@ class Room:
             return
 
 
-    #favourite song
-    # bar tab, add to
-    # pay bar tab
-            
 
-    #need to add if room is full, say no
 

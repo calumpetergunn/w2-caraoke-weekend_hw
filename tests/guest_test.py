@@ -37,12 +37,13 @@ class GuestTest(unittest.TestCase):
         self.guest.pay_bar_tab(self.guest.name)
         self.assertEqual(400.00, self.guest.wallet)
 
-    def test_drink_can_be_found_by_name(self):
-        self.assertEqual("Purple Goanna", self.guest.menu[3]["name"])
+    # def test_drink_can_be_found_by_name(self):
+    #     drink = self.guest.find_drink_by_name("Purple Goanna")
+    #     self.assertEqual("Purple Goanna", drink["name"])
 
-    def test_drink_can_be_sold_to_guest(self):
-        self.guest.sell_drink_to_guest("Beer", self.guest)
-        self.assertEqual(2.50, self.guest.bar_tab)
+    # def test_drink_can_be_sold_to_guest(self):
+    #     self.guest.sell_drink_to_guest("Beer", self.guest)
+    #     self.assertEqual(2.50, self.guest.bar_tab)
 
 
 

@@ -32,10 +32,12 @@ class Guest:
         
         return correct_drink
 
-    def sell_drink_to_guest(self, drink_name, guest):
-        for drink in self.menu:
-            if drink_name == drink["name"]:
-                self.wallet += drink["price"]
+    # def sell_drink_to_guest(self, drink_name, guest):
+    #     for drink in self.menu:
+    #         if drink_name == drink["name"]:
+    #             self.wallet += drink["price"]
+
+    # self.guest.menu[3]["price"]
 
     
 
